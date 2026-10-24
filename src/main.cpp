@@ -1264,16 +1264,18 @@ public:
 
 
 // ---- main popup: Basic and Advanced tabs --------------------------------
-static constexpr int PRESET_COUNT = 6;
-static constexpr char const* PRESET_NAMES[PRESET_COUNT] = {"Off", "Strict", "Standard", "Relaxed", "Very relaxed", "Maximum"};
-static constexpr char const* PRESET_STAGE[PRESET_COUNT] = {"Off", "2 ticks", "4 ticks", "8 ticks", "16 ticks", "32 ticks"};
+static constexpr int PRESET_COUNT = 8;
+static constexpr char const* PRESET_NAMES[PRESET_COUNT] = {"Off", "Strict", "Standard", "Relaxed", "Very relaxed", "Maximum", "Extreme", "Absurd"};
+static constexpr char const* PRESET_STAGE[PRESET_COUNT] = {"Off", "2 ticks", "4 ticks", "8 ticks", "16 ticks", "32 ticks", "64 ticks", "128 ticks"};
 static constexpr char const* PRESET_INFO[PRESET_COUNT] = {
     "No buffering or timing help.",
     "Remembers a click about half a frame early.",
     "Remembers a click about 1 frame early. A good start.",
     "Remembers a click about 2 frames early.",
     "Remembers a click about 4 frames early. Very forgiving.",
-    "Remembers a click about 8 frames early. Extremely forgiving."
+    "Remembers a click about 8 frames early. Extremely forgiving.",
+    "Remembers a click about 16 frames early.",
+    "Remembers a click about 32 frames early."
 };
 static constexpr char const* DEFAULT_PROFILE =
     "stage=4 ticks|wave-mode=Grid|tps-value=240|cube-ticks=-1|ball-ticks=-1|robot-ticks=-1|spider-ticks=-1|"
