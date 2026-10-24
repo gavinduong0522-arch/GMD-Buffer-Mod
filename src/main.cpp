@@ -20,9 +20,9 @@
 using namespace geode::prelude;
 
 // ---- settings --------------------------------------------------------
-static constexpr char const* STAGE_NAMES[] = {"2 ticks", "4 ticks", "8 ticks", "16 ticks", "Off"};
-static constexpr int STAGES[] = {2, 4, 8, 16, 0};
-static constexpr int STAGE_COUNT = 5;
+static constexpr char const* STAGE_NAMES[] = {"2 ticks", "4 ticks", "8 ticks", "16 ticks", "32 ticks", "Off"};
+static constexpr int STAGES[] = {2, 4, 8, 16, 32, 0};
+static constexpr int STAGE_COUNT = 6;
 static int g_stage = 1;
 
 static constexpr int WAVE_MAX_TICKS = 8;
