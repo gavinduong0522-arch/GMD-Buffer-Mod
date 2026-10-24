@@ -19,7 +19,7 @@
             "name": "Main Buffer Window",
             "description": "The default window for every mode that is set to -1 below.\n\n**2 ticks** = about half a frame (very strict)\n**4 ticks** = about 1 frame (a good starting point)\n**8 ticks** = about 2 frames\n**16 ticks** = about 4 frames (very forgiving)\n**Off** = no default window\n\nA bigger window is more forgiving, but a click meant for later might fire sooner than you wanted.",
             "default": "4 ticks",
-            "one-of": ["2 ticks", "4 ticks", "8 ticks", "16 ticks", "32 ticks", "Off"]
+          "one-of": ["2 ticks", "4 ticks", "8 ticks", "16 ticks", "32 ticks", "64 ticks", "128 ticks", "Off"]
         },
         "sec-ground": {
             "type": "title",
